@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "928204976650",
+    "project_id": "mis-tareas-7cce8",
+    "storage_bucket": "mis-tareas-7cce8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928204976650:android:3a1b2015962ed040fa65f3",
+        "android_client_info": {
+          "package_name": "com.anlahero.mistareas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928204976650-dj6dn71dlstlh5ljdab5tnkr00kl4ce7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anlahero.mistareas",
+            "certificate_hash": "aaebe1a8e236463539b7d2c4da9c2a42f6ab41ad"
+          }
+        },
+        {
+          "client_id": "928204976650-sda3kjisvi4s7qhitcvn1gacdpak3qtp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaxiAMjPZoE445Q6iXcDhDHTOAaXAuEx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928204976650-sda3kjisvi4s7qhitcvn1gacdpak3qtp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

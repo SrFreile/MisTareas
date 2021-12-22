@@ -20,6 +20,7 @@ import com.anlahero.mistareas.mvp.MainMVP;
 import com.anlahero.mistareas.presenter.MainPresenter;
 import com.anlahero.mistareas.view.adapter.TaskAdapter;
 import com.anlahero.mistareas.view.dto.TaskItem;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity implements MainMVP.View {
 
@@ -55,6 +56,10 @@ public class MainActivity extends AppCompatActivity implements MainMVP.View {
         rvTasks = findViewById(R.id.rv_tasks);
         rvTasks.setLayoutManager(new LinearLayoutManager(MainActivity.this));
         rvTasks.setAdapter(taskAdapter);
+    }
+    public void cerrarsesion(View view){
+        FirebaseAuth.getInstance().signOut();
+        finish();
     }
 
     @Override
@@ -103,4 +108,5 @@ public class MainActivity extends AppCompatActivity implements MainMVP.View {
     public void deleteTask(TaskItem task) {
         taskAdapter.removeTask(task);
     }
+
 }
